@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+
+
+</head>
+
+<body>
+        <!-- JAVASCRIPT -->
+        <script src="./index.js"></script>
+    
+    <!-- CALCULATOR CONTAINER -->
+    <div class="calculator">
+
+        <h1 style="text-align: center; color: orange;">CALCULATOR</h1>
+       
+        <div id="display"></div>
+
+         <!-- CALCULATOR-NUMBERS-SECTION -->
+        <div class="buttons">
+            <button class="button" onclick="press('7')">7</button>
+            <button class="button" onclick="press(8)">8</button>
+            <button class="button" onclick="press(9)">9</button>
+            <button class="button" onclick="clean()" >CE</button>
+            
+            
+          
+            <button class="button" onclick="press(4)">4</button>
+            <button class="button" onclick="press(5)">5</button>
+            <button class="button" onclick="press(6)">6</button>
+            <button class="button" onclick="back()" >&laquo</button>
+
+            <button class="button" onclick="press(1)">1</button>
+            <button class="button" onclick="press(2)">2</button>
+            <button class="button" onclick="press(3)">3</button>
+            <button class="button" onclick="press('/')">/</button>
+
+            <button class="button" onclick="press('0')">0</button>
+            <button class="button" onclick="press('*')">*</button>
+            <button class="button" onclick="press('-')">-</button>
+            <button class="button" onclick="press('+')">+</button> 
+            
+            <button class="button" onclick="press('(')">(</button>
+            <button class="button" onclick="press(')')">)</button>
+            <button class="button" onclick="press('.')">.</button>
+            
+            <button id="equal" onclick="eql('=')">=</button>   
+            
+        </div>  
+
+    </div>
+</body>
+
+</html>
